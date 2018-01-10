@@ -1,0 +1,1308 @@
+body,
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+footer {
+    padding: 30px 0
+}
+.checkbox,
+.radio {
+    margin-bottom: 3px;
+    margin-top: 3px
+}
+.navbar-inverse {
+    background-image: none;
+    background-color: #c1c0a7;
+    border: 0
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a {
+    background-image: none;
+    background-color: #d30d3c
+}
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>li>a {
+    text-shadow: none
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #d30d3c
+}
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #c10b36
+}
+.nav>li {
+    border-right: 1px solid #fff
+}
+.container .logo {
+    width: 350px
+}
+.telefono {
+    float: right;
+    padding-top: 10px;
+    padding-right: 15px
+}
+.tarifa {
+    float: right;
+    margin-top: -30px;
+    padding-right: 15px;
+    color: #A8A68E;
+    font-size: 11px
+}
+.tarifa_tabla {
+    color: #A8A68E;
+    font-size: 10px;
+    text-align: center;
+    margin: 0 auto
+}
+.telefono a {
+    color: #e19d2d;
+    font-weight: 700;
+    font-size: 38px;
+    float: right
+}
+.telefono a:hover {
+    text-decoration: none
+}
+.buscar {
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px
+}
+.list-group-item {
+    padding-top: 6px;
+    padding-bottom: 3px
+}
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+    background-image: none;
+    background-color: #c1c0a7;
+    text-shadow: none;
+    border: none
+}
+.container .jumbotron {
+    background-color: #ee7b00;
+    text-align: center;
+    padding: 10px;
+    color: #000
+}
+.jumbotron {
+    padding: 10px
+}
+.jumbotron p {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0 0 5px;
+    color: #fff
+}
+.jumbotron h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0 0 5px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif
+}
+.thumbnail {
+    margin-bottom: 2px;
+    border: 0;
+    color: #000
+}
+.rita {
+    background-image: url(../img/rita.jpg)
+}
+.selena {
+    background-image: url(../img/selena.jpg)
+}
+.thumbnail_text {
+    display: none;
+    font-size: 13px;
+    height: 185px;
+    width: auto;
+    position: relative;
+    z-index: 2;
+    margin-top: -190px;
+    background-image: url(../img/fondo_tarotista.png);
+    text-align: left;
+    padding: 10px 20px
+}
+.thumbnail_text .nombre {
+    color: #d30d3c;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px
+}
+.thumbnail_text .numero {
+    color: #d30d3c;
+    font-weight: 700;
+    font-size: 18px
+}
+.btn-thumbnail {
+    background-color: #ee7b00;
+    border-color: #ee7b00;
+    color: #fff
+}
+.btn-thumbnail-big {
+    background-color: #72706e;
+    border-color: #ee7b00;
+    color: #0b0b0b;
+    font-size: 22px;
+}
+.btn-send {
+    background-color: #be272e;
+    border-color: #be272e;
+    color: #fff
+}
+.btn-call {
+    background-color: #666559;
+    border-color: #666559;
+    color: #fff;
+    margin-bottom: 1px;
+    font-size: 13px;
+    width: 120px;
+    padding: 0
+}
+.btn-call-ya {
+    background-color: #e19d2d;
+    border-color: #e19d2d;
+    color: #fff;
+    margin-bottom: 1px;
+    font-size: 13px;
+    width: 80px;
+    padding: 0
+}
+.btn-oferta {
+    background-color: #d30d3c;
+    border-color: #d30d3c;
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 13px;
+    width: 120px;
+    padding: 0
+}
+.btn-oferta-especial {
+    background-color: #d30d3c;
+    border-color: #d30d3c;
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 13px;
+    width: 200px;
+    padding: 0
+}
+.btn-orange {
+    background-color: #ee7b00;
+    border-color: #ee7b00;
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 13px;
+    width: 120px;
+    padding: 0
+}
+.destacado {
+    font-weight: 700!important
+}
+.rojo {
+    color: #e4a948;
+}
+button:hover {
+    font-weight: 600;
+    color: #fff!important
+}
+.ranking .list-group-item {
+    border: 0 solid #fff;
+    border-right: 1px solid #d30d3c;
+    border-left: 1px solid #d30d3c
+}
+.ranking .inicio {
+    border-top: 1px solid #d30d3c;
+    padding-top: 15px
+}
+.ranking .inicio .posicion {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 10px
+}
+.ranking .fin {
+    border-bottom: 1px solid #d30d3c;
+    padding-bottom: 15px
+}
+.foto_ranking {
+    width: 90px;
+    height: auto;
+    border: 2px solid #d30d3c
+}
+.foto_tabla {
+    width: 125px;
+    height: auto;
+    border: 2px solid #d30d3c
+}
+.ranking .posicion {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 70px
+}
+.row_especialista {
+    margin-bottom: 5px
+}
+.nombre_tarotista {
+    color: #d30d3c!important;
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: 600
+}
+.estrella {
+    width: 15px;
+    height: auto
+}
+.listado_especialistas .row {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 5px
+}
+.mensaje {
+    font-style: italic
+}
+.mensaje a {
+    text-decoration: underline;
+    color: #d30d3c;
+    font-weight: 600
+}
+.telefono_estado {
+    width: 15px;
+    height: auto
+}
+.disponible {
+    color: #09d818;
+    font-weight: 600
+}
+.no_disponible {
+    color: #f70b16;
+    font-weight: 600
+}
+.centrado {
+    text-align: center;
+    margin: 0 auto
+}
+.check {
+    width: 30px;
+    height: auto
+}
+.panel-default>.panel-heading {
+    background-image: -webkit-linear-gradient(top, #8f8e7c 0, #5b5a4f 100%);
+    background-image: -o-linear-gradient(top, #8f8e7c 0, #5b5a4f 100%);
+    background-image: -moz-linear-gradient(top, #8f8e7c 0, #5b5a4f 100%);
+    background-image: linear-gradient(top, #8f8e7c 0, #5b5a4f 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff8f8e7c', endColorstr='#ff5b5a4f', GradientType=0);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    height: 80px;
+    background-color: #5b5a4f
+}
+.bs-columna {
+    margin-top: 50px
+}
+.panel-default>.panel-heading .panel-heading-left {
+    float: left;
+    text-align: right;
+    width: 40%
+}
+.panel-default>.panel-heading .panel-heading-right {
+    text-align: left;
+    margin-left: 60%
+}
+.oferta {
+    color: #e19d2d;
+    font-size: 16px
+}
+.oferta .destacado {
+    font-weight: 700
+}
+#regalo {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    margin-left: 500px;
+    margin-top: -60px
+}
+.panel-body #pasos {
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #be272e;
+    font-size: 18px
+}
+#regalo2 {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    margin-left: -80px;
+    margin-top: -60px
+}
+.panel-default .regalo {
+    background-color: #be272e!important;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center
+}
+.panel-default .regalo_pie {
+    background-color: #fff!important;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center
+}
+.panel-default .regalos_tarotista {
+    background-color: #be272e!important;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center
+}
+.regalos-tarotista {
+    top: 180px;
+    left: 40%;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    z-index: 200
+}
+#percent {
+    width: 150px
+}
+#percent1,
+#percent2,
+#percent3 {
+    width: 150px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -40px
+}
+.regalo-body-tarotista {
+    background-color: #fff;
+    border-bottom: 2px solid #be272e;
+    border-left: 2px solid #be272e;
+    border-right: 2px solid #be272e;
+    text-align: center;
+    font-size: 14px;
+    color: #be272e;
+    font-weight: 600
+}
+.regalo-body {
+    width: 45%;
+    background-color: #e0c3cb;
+    border-bottom: 2px solid #be272e;
+    border-left: 2px solid #be272e;
+    border-right: 2px solid #be272e;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px
+}
+.regalo-body-complete {
+    width: 99%;
+    background-color: #e0c3cb;
+    border-bottom: 2px solid #be272e;
+    border-left: 2px solid #be272e;
+    border-right: 2px solid #be272e;
+    border-top: 2px solid #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+}
+.regalos {
+    border: 0 solid #fff
+}
+#carta0 img,
+#carta1 img,
+#carta2 img {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .3);
+    border: 2px solid #d30d3c
+}
+.card {
+    height: 133px;
+    width: 71px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .3);
+    border: 3px solid #5a00a1;
+}
+.carta {
+    height: 133px;
+    width: 71px
+}
+.chat_gratis {
+    height: auto;
+    background-color: #fff;
+    margin: 0 auto;
+    border: 2px solid #000000;
+}
+.chat_gratis .titulo {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #d30d3c
+}
+.chat_gratis .usuario {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #149d2c;
+}
+.diez_minutos {
+    width: 450px;
+    height: auto;
+    max-width: 100%
+}
+.diez_minutos_nano {
+    width: 98%;
+    height: auto;
+    max-width: 100%
+}
+.cita {
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase
+}
+.aviso {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px
+}
+.input_text {
+    height: auto;
+    background: #fff;
+    border: 1px solid #be272e;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #000;
+    width: 40%
+}
+.area_text {
+    height: 65px;
+    background: #fff;
+    border: 1px solid #be272e;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #000;
+    width: 40%
+}
+.date_text {
+    height: auto;
+    background: #fff;
+    border: 1px solid #be272e;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #000;
+    width: auto
+}
+label {
+    margin-top: 5px
+}
+.tarif_txt {
+    font-size: 12px;
+    width: 80%;
+    margin: 0 auto
+}
+a,
+a:hover {
+    color: #be272e
+}
+.panel-heading h1,
+.regalo h1 {
+    font-size: 24px
+}
+#escribiendo {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px
+}
+#escribe {
+    padding-left: 20px;
+    padding-right: 20px
+}
+#chat_panel {
+    margin: 20px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    text-align: left;
+    height: auto;
+    max-height: 430px;
+}
+.conversacion {
+    height: 520px
+}
+.conversacion_estado {
+    height: 20px;
+    bottom: 0;
+    border: 0!important;
+    text-align: left
+}
+.atiende {
+    text-align: left!important;
+    margin: 10px!important;
+    padding-left: 10px
+}
+.baraja {
+    padding-top: 10px;
+    overflow: hidden;
+    float: none;
+    margin: 0 auto;
+    padding-left: 10px
+}
+.baraja ul {
+    margin-bottom: 10px;
+    list-style: none;
+    height: 129px
+}
+.baraja ul li {
+    float: left;
+    margin-left: -45px;
+    display: block
+}
+.baraja ul li a:hover {
+    background: url(../img/cartas/backcard.png);
+}
+.baraja ul li:hover {
+    margin-top: 10px
+}
+.baraja ul li a {
+    float: left;
+    display: block;
+    width: 70px;
+    height: 137px;
+    background: url(../img/cartas/backcard.png) center center;
+    border: 3px solid #d30d3c;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-size: 64px;
+    background-size: 108%;
+}
+.header_tarot {
+    background: url(../img/header_1.jpg) center top;
+    height: 150px
+}
+.header_tarot2 {
+    background: url(../img/header_2.jpg) center top;
+    height: 150px
+}
+.header_tarot3 {
+    background: url(../img/header_3.jpg) center top;
+    height: 150px
+}
+.header_tarot4 {
+    background: url(../img/header_4.jpg) center top;
+    height: 150px
+}
+.header_tarot8 {
+    background: url(../img/header_8.jpg) center top;
+    height: 150px
+}
+.header_tarot9 {
+    background: url(../img/header_9.jpg) center top;
+    height: 150px
+}
+.header_tarot6 {
+    background: url(../img/header_6.jpg) center top;
+    height: 150px
+}
+.header_tarot5 {
+    background: url(../img/header_5.jpg) center top;
+    height: 150px
+}
+.header_tarot7 {
+    background: url(../img/header_7.jpg) center top;
+    height: 150px
+}
+.tarotista_circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -khtml-border-radius: 100px;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 180px;
+    margin-left: 40px
+}
+.tarotista_circle_recetario {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -khtml-border-radius: 100px;
+    border: 2px solid #fff;
+    float: left;
+    margin-right: 10px
+}
+.perfil {
+    border: 0 solid #fff!important
+}
+.perfil .nombre_tarotista {
+    color: #d30d3c!important;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase
+}
+.nombre_tarotista h1 {
+    font-size: 24px!important;
+    display: inline;
+    font-weight: 600
+}
+.contacto_perfil {
+    color: #5b5a4f;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline;
+    width: 50px!important
+}
+.perfil-nombre-tarotista .tarifa_tabla {
+    padding-left: 55px;
+    margin-top: -15px;
+    position: absolute
+}
+.contacto_perfil a {
+    float: right;
+    margin-right: 250px;
+    margin-top: 10px
+}
+.perfil-articulos,
+.perfil-descripcion {
+    height: 200px;
+    overflow: hidden
+}
+.perfil-categorias {
+    height: auto;
+    text-align: center
+}
+.perfil-evaluacion {
+    width: 170px;
+    display: inline-block
+}
+.cita_perfil {
+    font-style: italic
+}
+.cita_perfil .firma {
+    font-weight: 600
+}
+.titulo-articulo {
+    text-transform: uppercase
+}
+#video {
+    width: 600px;
+    height: 340px;
+    margin: 0 auto
+}
+iframe {
+    width: 600px;
+    height: 340px;
+    text-align: center
+}
+#perfil-tirada {
+    width: 294px;
+    display: none;
+    z-index: 2000
+}
+#perfil-agenda,
+#perfil-chat {
+    width: 294px;
+    display: none
+}
+.navbar-mobile,
+.telefono_mov,
+.telefono_mov2 {
+    display: none
+}
+.panel-color {
+    background-color: #c1c0a7
+}
+.caja-nosotros {
+    border: 2px solid #a6a590;
+    margin-bottom: 45px;
+    color: #7b060b;
+    text-align: center;
+    font-size: 18px
+}
+.caja-online {
+    border: 0 solid;
+    margin-bottom: 45px;
+    color: #7b060b;
+    text-align: center;
+    font-size: 18px;
+    background-color: #b2b191
+}
+.color-oscuro {
+    background-color: #b2b191
+}
+.cabecera {
+    background-color: #be272e;
+    display: block;
+    color: #fff;
+    padding: 5px;
+    text-align: center
+}
+.columna_online {
+    padding: 0
+}
+.caja-online-temas {
+    font-size: 12px
+}
+.blanco {
+    color: #fff!important
+}
+.no-shadow {
+    box-shadow: none
+}
+.categoria1 {
+    font-size: 15px
+}
+.categoria2 {
+    font-size: 17px
+}
+.categoria3 {
+    font-size: 19px
+}
+.categoria4 {
+    font-size: 21px
+}
+.categoria5 {
+    font-size: 23px
+}
+.titulo_recetario {
+    font-size: 32px;
+    color: #e19d2d;
+    font-weight: 700;
+    margin-left: 0
+}
+.subtitulo_recetario {
+    font-size: 13px;
+    color: #be272e;
+    margin-left: 0
+}
+.footer {
+    text-align: center
+}
+.caja-online-mov {
+    width: 50%;
+    float: left
+}
+.regalo_directo_img {
+    width: 90%;
+    height: auto
+}
+.regalo_directo_container {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto
+}
+.regalo_gratis {
+    height: auto!important
+}
+.claro {
+    background-color: #fff
+}
+.oscuro {
+    background-color: #f0f0f0
+}
+.rosa {
+    background-color: #ffd9de
+}
+.iluminada:hover {
+    animation: ex4 1s infinite;
+    -moz-animation: ex4 1s infinite;
+    -webkit-animation: ex4 1s infinite
+}
+@keyframes ex4 {
+    0% {
+        border-color: #ef1b4d
+    }
+    50% {
+        border-color: #6e051e;
+        -moz-box-shadow: 0 0 25px #6e051e;
+        -webkit-box-shadow: 0 0 25px #6e051e;
+        box-shadow: 0 0 25px #6e051e
+    }
+    100% {
+        border-color: #ef1b4d
+    }
+}
+@-moz-keyframes ex4 {
+    0% {
+        border-color: #ef1b4d
+    }
+    50% {
+        border-color: #6e051e;
+        -moz-box-shadow: 0 0 25px #6e051e;
+        -webkit-box-shadow: 0 0 25px #6e051e;
+        box-shadow: 0 0 25px #6e051e
+    }
+    100% {
+        border-color: #ef1b4d
+    }
+}
+@-webkit-keyframes ex4 {
+    0% {
+        border-color: #ef1b4d
+    }
+    50% {
+        border-color: #6e051e;
+        -moz-box-shadow: 0 0 25px #6e051e;
+        -webkit-box-shadow: 0 0 25px #6e051e;
+        box-shadow: 0 0 25px #6e051e
+    }
+    100% {
+        border-color: #ef1b4d
+    }
+}
+.superCapa {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    filter: alpha(opacity=80);
+    visibility: hidden;
+    z-index: 201
+}
+#cajaRevalidate {
+    width: 370px;
+    height: 160px;
+    margin-left: -185px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 2px solid #5b5a4f;
+    background-color: #c1c0a7;
+    font-size: 13px;
+    text-align: center;
+    color: #be272e;
+    font-family: 'Open Sans', sans-serif;
+    visibility: hidden;
+    z-index: 202
+}
+.cursiva {
+    text-align: right!important;
+    font-style: italic;
+    font-weight: 700
+}
+.navbar-nav {
+    float: none;
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed
+}
+.alto_chat {
+    margin-top: 0!important
+}
+.barra_chat {
+    background: rgba(124, 123, 108, 1);
+    background: -moz-linear-gradient(top, rgba(124, 123, 108, 1) 0, rgba(91, 90, 79, 1) 51%, rgba(91, 90, 79, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(124, 123, 108, 1)), color-stop(51%, rgba(91, 90, 79, 1)), color-stop(100%, rgba(91, 90, 79, 1)));
+    background: -webkit-linear-gradient(top, rgb(71, 70, 58) 0, rgba(91, 90, 79, 1) 51%, rgba(91, 90, 79, 1) 100%);
+    background: -o-linear-gradient(top, rgba(124, 123, 108, 1) 0, rgba(91, 90, 79, 1) 51%, rgba(91, 90, 79, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(124, 123, 108, 1) 0, rgba(91, 90, 79, 1) 51%, rgba(91, 90, 79, 1) 100%);
+    background: linear-gradient(to bottom, rgb(126, 126, 122) 0, rgb(255, 255, 255) 51%, rgb(150, 150, 150) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#7c7b6c', endColorstr='#5b5a4f', GradientType=0);
+    color: #7a0000;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}.oferta_img2 {
+    position: absolute;
+    margin-left: -436px;
+    margin-top: -34px;
+    }
+.oferta_img {
+    position: absolute;
+    margin-left: 173px;
+    margin-top: -34px;
+}
+.sombra {
+    -webkit-box-shadow: 7px 6px 18px 1px rgba(202, 178, 178, 0.7);
+    -moz-box-shadow: 7px 6px 18px 1px rgba(168, 168, 168, .7);
+    box-shadow: 7px 6px 18px 1px rgb(194, 194, 194);
+}
+#conversacion_iniciada {
+    display: none
+}
+#conversacion_parada {
+    background-color: #fff
+}
+#conversacion_parada .texto {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 16px
+}
+#conversacion_iniciada .regalo-body-complete {
+    background-color: #d8d5ce;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-top: 2px solid #fff
+	margin-top: 80px;
+}
+#conversacion_iniciada .chat_gratis {
+    background-color: #fff;
+    background-color: #e3e3e3;
+    border: 2px solid #fff;
+}
+#conversacion_iniciada .tipo_largo {
+    width: 90%!important
+}
+@media screen and (max-width: 1530px) {
+    #percent1,
+    #percent2,
+    #percent3 {
+        width: 150px;
+        position: absolute;
+        margin-left: 65%;
+        margin-top: -40px
+    }
+    .regalos-tarotista {
+        position: fixed;
+        top: 180px;
+        left: 55%;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 200
+    }
+}
+@media screen and (max-width: 1199px) {
+    .foto_tabla {
+        width: 100px;
+        height: auto
+    }
+    .rita,
+    .selena {
+        height: 240px!important;
+        width: auto!important;
+        background-size: container
+    }
+    .thumbnail_text {
+        height: 220px;
+        margin-top: -225px
+    }
+    .thumbnail_text .nombre {
+        font-size: 18px
+    }
+    .thumbnail_text .numero {
+        font-size: 16px
+    }
+    .ranking .inicio .posicion {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 10px
+    }
+    .ranking .posicion {
+        font-size: 24px;
+        font-weight: 700;
+        margin-left: 50px
+    }
+    #estrella_busqueda1,
+    #estrella_busqueda2,
+    #estrella_busqueda3,
+    #estrella_busqueda4,
+    #estrella_busqueda5 {
+        width: 25px;
+        height: auto
+    }
+    .btn-call,
+    .btn-send {
+        width: 90px;
+        font-size: 11px
+    }
+    .btn-oferta {
+        width: 90px;
+        font-size: 10px
+    }
+    .btn-orange {
+        width: 90px;
+        font-size: 11px
+    }
+    #percent1,
+    #percent2,
+    #percent3 {
+        display: none
+    }
+    .oferta {
+        font-size: 14px
+    }
+    .diez_minutos {
+        width: 380px;
+        max-width: 100%
+    }
+    .contacto_perfil {
+        font-size: 12px;
+        width: 100px!important;
+        max-width: 100%
+    }
+    .contacto_perfil a {
+        margin-right: 150px
+    }
+    .col-sm-2 .list-group a {
+        font-size: 13px
+    }
+    #regalo {
+        margin-left: 420px
+    }
+}
+@media screen and (max-width: 991px) {
+    .container .jumbotron-inicio {
+        /*display: none*/
+    }
+    .container {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .telefono {
+        float: none;
+        display: block
+    }
+    .telefono a {
+        float: none
+    }
+    .telefono img {
+        display: none
+    }
+    .tarifa {
+        float: none;
+        padding-right: 0;
+        margin-top: -20px
+    }
+    .foto_tabla {
+        width: 90px
+    }
+    .foto_ranking {
+        width: 70px
+    }
+    .posicion {
+        display: none
+    }
+    .tarotista_circle {
+        position: relative;
+        top: 0;
+        margin-left: 0
+    }
+    #perfil-chat {
+        width: 80%
+    }
+    .regalos-tarotista {
+        position: relative;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -150px
+    }
+    .perfil {
+        margin-top: 190px
+    }
+    .header_tarot1,
+    .header_tarot2,
+    .header_tarot3,
+    .header_tarot4,
+    .header_tarot5,
+    .header_tarot6,
+    .header_tarot7,
+    .header_tarot8,
+    .header_tarot9 {
+        display: none
+    }
+    .tarifa_tabla_especia {
+        margin-left: -200px
+    }
+    .perfil-nombre-tarotista {
+        margin: 0 auto;
+        text-align: center;
+        width: 700px
+    }
+    .col-sm-2 .list-group a {
+        font-size: 11px
+    }
+    #regalo {
+        margin-left: -50px;
+        width: 100px;
+        height: auto;
+        padding-top: 65px
+    }
+    #regalo2 {
+        width: 80px;
+        left: 300px;
+        top: 470px
+    }
+    .baraja ul li a {
+        width: 56px!important;
+        height: 90px!important
+    }
+}
+@media screen and (max-width: 930px) {
+    .oferta_img {
+        display: none
+    }.oferta_img2 {display: none
+}
+@media screen and (max-width: 767px) {
+    .nav>li {
+        border-right: 0 solid #fff
+    }
+    #chat_panel {
+        font-size: 13px!important
+    }
+    .telefono_pc2 {
+        display: none
+    }
+    .telefono_mov2 {
+        display: block
+    }
+    .baraja ul li a {
+        width: 56px!important;
+        height: 90px!important
+    }
+    .mensaje {
+        display: none
+    }
+    .foto_tabla {
+        width: 70px
+    }
+    .col-xs-8 {
+        width: 50%
+    }
+    .col-xs-2 {
+        width: 22%
+    }
+    .col-sm-3 {
+        display: none
+    }
+    .navbar-mobile {
+        display: block;
+        background-color: #fff!important;
+        height: 50px
+    }
+    .container .logo {
+        width: 200px;
+        height: auto
+    }
+    .telefono a {
+        font-size: 24px
+    }
+    .panel-heading h1 {
+        font-size: 16px
+    }
+    .panel-heading-right {
+        font-size: 20px
+    }
+    .oferta {
+        font-size: 14px
+    }
+    .regalo-body {
+        width: 90%
+    }
+    .telefono_pc {
+        display: none
+    }
+    .telefono_mov {
+        display: block
+    }
+    .tarifa_tabla {
+        font-size: 8px
+    }
+    .perfil-nombre-tarotista {
+        margin: 0 auto;
+        text-align: center;
+        width: 300px
+    }
+    .contacto_perfil a {
+        margin-right: 0
+    }
+    .tarifa_tabla_especia {
+        margin-left: -130px
+    }
+    .perfil {
+        width: 90%
+    }
+    #video {
+        width: 300px;
+        height: 170px;
+        margin: 0 auto
+    }
+    iframe {
+        width: 300px;
+        height: 170px;
+        text-align: center
+    }
+    #regalo2 {
+        display: none;
+        visibility: hidden
+    }
+    .panel-default>.panel-heading .panel-heading-left,
+    .panel-default>.panel-heading .panel-heading-right {
+        float: none;
+        margin: 0 auto;
+        text-align: center
+    }
+    #regalo {
+        display: none
+    }
+    .row-offcanvas {
+        position: relative;
+        -webkit-transition: all .25s ease-out;
+        -o-transition: all .25s ease-out;
+        transition: all .25s ease-out
+    }
+    .row-offcanvas-right {
+        right: 0
+    }
+    .row-offcanvas-left {
+        left: 0
+    }
+    .row-offcanvas-right .sidebar-offcanvas {
+        right: -50%
+    }
+    .row-offcanvas-left .sidebar-offcanvas {
+        left: -50%
+    }
+    .row-offcanvas-right.active {
+        right: 50%
+    }
+    .row-offcanvas-left.active {
+        left: 50%
+    }
+    .sidebar-offcanvas {
+        position: absolute;
+        top: 0;
+        width: 50%
+    }
+    #conversacion_parada .texto {
+        width: 100%
+  
